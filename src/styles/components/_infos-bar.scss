@@ -1,0 +1,19 @@
+.info-bar{
+    padding: 16px 24px;
+    background-color: aliceblue;
+
+    &__infos{
+        display: flex;
+        gap: 40px;
+
+        &__item{
+            font-size: 14px;
+            color: black;
+
+            b{
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+}

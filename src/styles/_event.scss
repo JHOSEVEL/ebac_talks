@@ -1,9 +1,12 @@
-.event{
+.event { 
+    width: 100%;
+
     .container{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
-    &__image{
+    .container,.image{
         max-width: 360px;
 
     }
