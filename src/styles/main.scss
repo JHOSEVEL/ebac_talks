@@ -1,5 +1,5 @@
 @use 'hero';
-//@use 'event';
+@use 'event';
 
 *{
     padding: 0;
@@ -21,7 +21,4 @@
         max-width: 90%;
     }
   
-}
-.event{
-    background-color: #938d8d;
 }
